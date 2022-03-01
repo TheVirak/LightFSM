@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="sam" projectFiles="true">
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/USB/CDC.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/IPAddress.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/USB/PluggableUSB.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/Print.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/Reset.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/RingBuffer.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/Stream.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/UARTClass.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/USARTClass.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/USB/USBCore.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/WInterrupts.c</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/WMath.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/WString.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/abi.cpp</itemPath>
+        <itemPath>../join/arduino-core/arduino-timer.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/cortex_handlers.c</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/avr/dtostrf.c</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/hooks.c</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/iar_calls_sam3.c</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/itoa.c</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/main.cpp</itemPath>
+        <itemPath>../../../apm/libraries/noarch/mcu-core/trunk/code/gcc-mcu-core/mcu-fsm.cpp</itemPath>
+        <itemPath>../../../apm/libraries/noarch/mcu-core/trunk/code/gcc-mcu-core/mcu-timer.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/new.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/syscalls_sam3.c</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/variants/arduino_due_x/variant.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/watchdog.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring.c</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring_analog.c</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring_digital.c</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring_pulse.cpp</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring_pulse_asm.S</itemPath>
+        <itemPath>../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring_shift.c</itemPath>
+      </logicalFolder>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>ARMv7-M|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>../join/sam-distro/distro/sam-1.6.7/cores/arduino</pElem>
+            <pElem>../join/sam-distro/distro/sam-1.6.7/variants/arduino_due_x</pElem>
+            <pElem>../join/sam-distro/distro/sam-1.6.7/system/libsam</pElem>
+            <pElem>../join/sam-distro/distro/sam-1.6.7/system/CMSIS/CMSIS/Include</pElem>
+            <pElem>../join/sam-distro/distro/sam-1.6.7/system/CMSIS/Device/ATMEL</pElem>
+            <pElem>../join/sam-distro/distro/sam-1.6.7/libraries/SPI/src</pElem>
+          </incDir>
+          <commandLine>-Os -std=gnu11 -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500 -Dprintf=iprintf -MMD -mcpu=cortex-m3 -mthumb</commandLine>
+          <preprocessorList>
+            <Elem>ARDUINO=10608</Elem>
+            <Elem>ARDUINO_ARCH_SAM</Elem>
+            <Elem>ARDUINO_SAM_DUE</Elem>
+            <Elem>F_CPU=84000000L</Elem>
+            <Elem>USBCON</Elem>
+            <Elem>USB_MANUFACTURER="Unknown"</Elem>
+            <Elem>USB_PID=0x003e</Elem>
+            <Elem>USB_PRODUCT="Arduino Due"</Elem>
+            <Elem>USB_VID=0x2341</Elem>
+            <Elem>__SAM3X8E__</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <standard>11</standard>
+          <incDir>
+            <pElem>../join/sam-distro/distro/sam-1.6.7/cores/arduino</pElem>
+            <pElem>../join/sam-distro/distro/sam-1.6.7/variants/arduino_due_x</pElem>
+            <pElem>../join/sam-distro/distro/sam-1.6.7/system/libsam</pElem>
+            <pElem>../join/sam-distro/distro/sam-1.6.7/system/CMSIS/CMSIS/Include</pElem>
+            <pElem>../join/sam-distro/distro/sam-1.6.7/system/CMSIS/Device/ATMEL</pElem>
+            <pElem>../join/sam-distro/distro/sam-1.6.7/libraries/SPI/src</pElem>
+            <pElem>../join/arduino-core</pElem>
+            <pElem>../join/mcu-core</pElem>
+          </incDir>
+          <commandLine>-Os -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -ggdb -Werror=return-type</commandLine>
+          <preprocessorList>
+            <Elem>ARDUINO=10608</Elem>
+            <Elem>ARDUINO_ARCH_SAM</Elem>
+            <Elem>ARDUINO_SAM_DUE</Elem>
+            <Elem>F_CPU=84000000L</Elem>
+            <Elem>USBCON</Elem>
+            <Elem>USB_MANUFACTURER="Unknown"</Elem>
+            <Elem>USB_PID=0x003e</Elem>
+            <Elem>USB_PRODUCT="Arduino Due"</Elem>
+            <Elem>USB_VID=0x2341</Elem>
+            <Elem>__SAM3X8E__</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <commandlineTool>arm-none-eabi-g++</commandlineTool>
+          <linkerLibItems>
+            <linkerLibFileItem>../join/sam-distro/distro/sam-1.6.7/variants/arduino_due_x/libsam_sam3x8e_gcc_rel.a</linkerLibFileItem>
+          </linkerLibItems>
+          <commandLine>-mcpu=cortex-m3 -mthumb -Os -Wl,--gc-sections -Wl,--check-sections -T../join/sam-distro/distro/sam-1.6.7/variants/arduino_due_x/linker_scripts/gcc/flash.ld -Wl,--entry=Reset_Handler -Wl,--unresolved-symbols=report-all -Wl,--warn-common -Wl,--warn-section-align -lm -g</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../../../apm/libraries/noarch/mcu-core/trunk/code/gcc-mcu-core/mcu-fsm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../apm/libraries/noarch/mcu-core/trunk/code/gcc-mcu-core/mcu-timer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/arduino-core/arduino-timer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/IPAddress.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/Print.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/Reset.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/RingBuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/Stream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/UARTClass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/USARTClass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/USB/CDC.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/USB/PluggableUSB.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/USB/USBCore.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/WInterrupts.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/WMath.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/WString.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/abi.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/avr/dtostrf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/cortex_handlers.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/hooks.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/iar_calls_sam3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/itoa.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/new.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/syscalls_sam3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/watchdog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring_analog.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring_digital.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring_pulse.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring_pulse_asm.S"
+            ex="false"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring_shift.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/variants/arduino_due_x/variant.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>ARMv7-M|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../../../apm/libraries/noarch/mcu-core/trunk/code/gcc-mcu-core/mcu-fsm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../apm/libraries/noarch/mcu-core/trunk/code/gcc-mcu-core/mcu-timer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/arduino-core/arduino-timer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/IPAddress.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/Print.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/Reset.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/RingBuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/Stream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/UARTClass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/USARTClass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/USB/CDC.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/USB/PluggableUSB.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/USB/USBCore.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/WInterrupts.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/WMath.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/WString.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/abi.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/avr/dtostrf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/cortex_handlers.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/hooks.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/iar_calls_sam3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/itoa.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/new.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/syscalls_sam3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/watchdog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring_analog.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring_digital.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring_pulse.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring_pulse_asm.S"
+            ex="false"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/cores/arduino/wiring_shift.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../join/sam-distro/distro/sam-1.6.7/variants/arduino_due_x/variant.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
